@@ -1,12 +1,12 @@
 
-#pragma warning(disable:4996) //scanf_s() ¶Ç´Â printf_s()¸¦ »ç¿ëÇÏÁö ¾Ê¾Æ¼­ ¹ß»ıÇÏ´Â ¿À·ù¸¦ ¹«½ÃÇÏ´Â ÄÚµå
+#pragma warning(disable:4996) //scanf_s() ë˜ëŠ” printf_s()ë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šì•„ì„œ ë°œìƒí•˜ëŠ” ì˜¤ë¥˜ë¥¼ ë¬´ì‹œí•˜ëŠ” ì½”ë“œ
 #include<stdio.h>
-int find_max_score(int n); // ÇÔ¼öÀÇ ¼±¾ğ1, ÃÖ°íÁ¡À» Ã£´Â´Ù.
+int find_max_score(int n); // í•¨ìˆ˜ì˜ ì„ ì–¸1, ìµœê³ ì ì„ ì°¾ëŠ”ë‹¤.
 
-#define MAX_ELEMENTS 5  // 100À» »ó¼öÈ­(±âÈ£)
-int score[MAX_ELEMENTS];  // ´Ü¼ø ÀÚ·á±¸Á¶, Àü¿ª¹è¿­
+#define MAX_ELEMENTS 5  // 5ë¥¼ ìƒìˆ˜í™”(ê¸°í˜¸)
+int score[MAX_ELEMENTS];  // ë‹¨ìˆœ ìë£Œêµ¬ì¡°, ì „ì—­ë°°ì—´
 
-int main()  // Å×½ºÆ®
+int main()  // í…ŒìŠ¤íŠ¸
 {
 	int k;
 	int result;
@@ -17,20 +17,20 @@ int main()  // Å×½ºÆ®
 	}
 	
 	result = find_max_score(MAX_ELEMENTS);
-	printf("ÃÖ°íÁ¡¼ö: %d\n", result);
+	printf("ìµœê³ ì ìˆ˜: %d\n", result);
 
 	return 0;
 
 }
 
-int find_max_score(int n) // ÇĞ»ıÀÇ ¼ıÀÚ´Â n, ÇÔ¼ö Á¤ÀÇºÎºĞ
+int find_max_score(int n) // í•™ìƒì˜ ìˆ«ìëŠ” n, í•¨ìˆ˜ ì •ì˜ë¶€ë¶„
 {  
 	int i, tmp;
 	tmp=score[0];
 
 	for(i=1;i<n;i++)
 	{ 
-		// ¾Ë°í¸®Áò
+		// ì•Œê³ ë¦¬ì¦˜
 		if( score[i] > tmp )
 		{
 			tmp = score[i];

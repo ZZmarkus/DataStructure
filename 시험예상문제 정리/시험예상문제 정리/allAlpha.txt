@@ -1,0 +1,10 @@
+1 race
+2 radio
+3 raise
+4 range
+5 rate
+6 rather
+7 reach
+8 read
+단어의 개수 : 8
+-----------------------

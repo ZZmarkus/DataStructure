@@ -1,0 +1,7 @@
+﻿  학번 나이 학점.cpp
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(15): warning C4091: 'typedef ': 변수를 선언하지 않으면 'ListNode' 왼쪽은 무시됩니다.
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(20): warning C4091: 'typedef ': 변수를 선언하지 않으면 'linkedList_h' 왼쪽은 무시됩니다.
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(66): warning C4101: 'duration' :참조되지 않은 지역 변수입니다.
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(93): error C3863: 배열 형식 'char [15]'은(는) 할당할 수 없습니다.
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(94): error C3863: 배열 형식 'char [10]'은(는) 할당할 수 없습니다.
+c:\users\lg\desktop\시험예상문제 정리\시험예상문제 정리\학번 나이 학점.cpp(95): error C3863: 배열 형식 'char [10]'은(는) 할당할 수 없습니다.

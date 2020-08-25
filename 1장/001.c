@@ -6,7 +6,7 @@ int find_max_score(int n); // 함수의 선언1, 최고점을 찾는다.
 #define MAX_ELEMENTS 5  // 5를 상수화(기호)
 int score[MAX_ELEMENTS];  // 단순 자료구조, 전역배열
 
-int main()  // 테스트
+int main()  //테스트
 {
 	int k;
 	int result;
